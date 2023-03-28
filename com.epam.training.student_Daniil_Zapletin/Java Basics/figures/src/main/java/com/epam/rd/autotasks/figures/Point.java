@@ -1,0 +1,18 @@
+package com.epam.rd.autotasks.figures;
+
+class Point {
+    private double x, y;
+
+    public Point(final double x, final double y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public double getX() { return x; }
+
+    public double getY() {
+        return y;
+    }
+
+    public String pointToString(){ return "(" + this.x + ',' + this.y + ')'; }
+}
