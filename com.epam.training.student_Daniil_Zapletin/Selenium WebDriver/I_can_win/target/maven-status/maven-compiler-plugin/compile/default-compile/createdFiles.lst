@@ -1,0 +1,5 @@
+Main.class
+pageObjects\PastebinHomePage.class
+pageObjects\constants\Constants.class
+pageObjects\constants\Constants$Selectors.class
+pageObjects\constants\Constants$TimeOutVariable.class
