@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-15T15:22:30 MSK" name="PricingCalculatorFilledPageTest" finished-at="2023-05-15T15:22:59 MSK" duration-ms="28995">
+    <groups>
+    </groups>
+    <test started-at="2023-05-15T15:22:30 MSK" name="Command line test" finished-at="2023-05-15T15:22:59 MSK" duration-ms="28995">
+      <class name="PricingCalculatorFilledPageTest">
+        <test-method is-config="true" signature="pricingCalculatorConfiguration()[pri:0, instance:PricingCalculatorFilledPageTest@5af97850]" started-at="2023-05-15T15:22:30 MSK" name="pricingCalculatorConfiguration" finished-at="2023-05-15T15:22:58 MSK" duration-ms="28233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingCalculatorConfiguration -->
+        <test-method signature="commitmentTermTest()[pri:0, instance:PricingCalculatorFilledPageTest@5af97850]" started-at="2023-05-15T15:22:58 MSK" name="commitmentTermTest" finished-at="2023-05-15T15:22:59 MSK" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commitmentTermTest -->
+        <test-method signature="estimatedCostTest()[pri:0, instance:PricingCalculatorFilledPageTest@5af97850]" started-at="2023-05-15T15:22:59 MSK" name="estimatedCostTest" finished-at="2023-05-15T15:22:59 MSK" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- estimatedCostTest -->
+        <test-method signature="instanceTypeTest()[pri:0, instance:PricingCalculatorFilledPageTest@5af97850]" started-at="2023-05-15T15:22:59 MSK" name="instanceTypeTest" finished-at="2023-05-15T15:22:59 MSK" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instanceTypeTest -->
+        <test-method signature="localSSDTypeTest()[pri:0, instance:PricingCalculatorFilledPageTest@5af97850]" started-at="2023-05-15T15:22:59 MSK" name="localSSDTypeTest" finished-at="2023-05-15T15:22:59 MSK" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- localSSDTypeTest -->
+        <test-method signature="provisioningModelTest()[pri:0, instance:PricingCalculatorFilledPageTest@5af97850]" started-at="2023-05-15T15:22:59 MSK" name="provisioningModelTest" finished-at="2023-05-15T15:22:59 MSK" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provisioningModelTest -->
+        <test-method signature="regionTest()[pri:0, instance:PricingCalculatorFilledPageTest@5af97850]" started-at="2023-05-15T15:22:59 MSK" name="regionTest" finished-at="2023-05-15T15:22:59 MSK" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regionTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PricingCalculatorFilledPageTest@5af97850]" started-at="2023-05-15T15:22:59 MSK" name="tearDown" finished-at="2023-05-15T15:22:59 MSK" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PricingCalculatorFilledPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- PricingCalculatorFilledPageTest -->
+</testng-results>
