@@ -1,0 +1,7 @@
+Main.class
+pastebinPageObjects\PastebinHomePage.class
+pastebinPageObjects\constants\Constants$SubmittedPage.class
+pastebinPageObjects\PastebinSubmittedPage.class
+pastebinPageObjects\constants\Constants$HomePageConstantVariables.class
+pastebinPageObjects\constants\Constants.class
+pastebinPageObjects\constants\Constants$HomePageSelectors.class
