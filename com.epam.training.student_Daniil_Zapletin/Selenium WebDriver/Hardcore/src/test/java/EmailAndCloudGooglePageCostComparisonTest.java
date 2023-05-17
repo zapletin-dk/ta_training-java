@@ -9,7 +9,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class emailAndCloudGooglePageCostComparisonTest {
+public class EmailAndCloudGooglePageCostComparisonTest {
         private WebDriver driver;
         private static String expectedEstimatedCost;
         private static String actualEstimatedCost;
