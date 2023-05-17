@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-17T16:13:36 MSK" name="emailAndCloudGooglePageCostComparisonTest" finished-at="2023-05-17T16:14:12 MSK" duration-ms="36318">
+    <groups>
+    </groups>
+    <test started-at="2023-05-17T16:13:36 MSK" name="Command line test" finished-at="2023-05-17T16:14:12 MSK" duration-ms="36318">
+      <class name="emailAndCloudGooglePageCostComparisonTest">
+        <test-method is-config="true" signature="pricingCalculatorConfiguration()[pri:0, instance:emailAndCloudGooglePageCostComparisonTest@3c87521]" started-at="2023-05-17T16:13:36 MSK" name="pricingCalculatorConfiguration" finished-at="2023-05-17T16:14:12 MSK" duration-ms="35966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingCalculatorConfiguration -->
+        <test-method signature="estimatedCostTest()[pri:0, instance:emailAndCloudGooglePageCostComparisonTest@3c87521]" started-at="2023-05-17T16:14:12 MSK" name="estimatedCostTest" finished-at="2023-05-17T16:14:12 MSK" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- estimatedCostTest -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:emailAndCloudGooglePageCostComparisonTest@3c87521]" started-at="2023-05-17T16:14:12 MSK" name="browserTearDown" finished-at="2023-05-17T16:14:12 MSK" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- emailAndCloudGooglePageCostComparisonTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- emailAndCloudGooglePageCostComparisonTest -->
+</testng-results>

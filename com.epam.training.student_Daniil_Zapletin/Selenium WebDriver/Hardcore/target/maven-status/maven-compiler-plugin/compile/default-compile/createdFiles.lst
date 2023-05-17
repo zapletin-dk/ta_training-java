@@ -1,0 +1,10 @@
+Main.class
+cloudGooglePageObjects\PricingCalculatorPage.class
+mailPageObjects\YopmailPage.class
+cloudGooglePageObjects\Constants$PricingCalculatorPageConstants.class
+cloudGooglePageObjects\Constants$HomePageConstants.class
+cloudGooglePageObjects\HomePage.class
+cloudGooglePageObjects\Constants$SearchResultsPageConstants.class
+cloudGooglePageObjects\Constants.class
+cloudGooglePageObjects\SearchResultsPage.class
+mailPageObjects\Constants.class
