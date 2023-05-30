@@ -6,7 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
+
+import static page.Constants.EXPLICIT_WAIT;
 import static page.Constants.PricingCalculatorPageConstants.*;
 
 public class GoogleCloudPricingCalculatorPage extends AbstractPage{
@@ -176,8 +181,8 @@ public class GoogleCloudPricingCalculatorPage extends AbstractPage{
     }
 
     public GoogleCloudPricingCalculatorPage sendEmail(String email){
-        waitUntilVisibility(sendEmailLink).click();
-        waitUntilVisibility(inputEmailField).click();
+        new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.elementToBeClickable(sendEmailLink)).click();
+        new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.elementToBeClickable(inputEmailField)).click();
         inputEmailField.sendKeys(email);
         sendEmailButton.click();
         logger.info("Email with estimated cost has been send");
