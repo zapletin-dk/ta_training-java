@@ -37,7 +37,7 @@ public class Constants {
         public static final String ADD_TO_ESTIMATE_BUTTON_SELECTOR = "(//button[contains(text(), 'Add to Estimate')])[1]";
         public static final String TOTAL_ESTIMATED_COST = "//b[contains(text(), 'Total Estimated Cost')]";
         public static final String SEND_EMAIL_LINK = "//span[text() = 'email']";
-        public static final String INPUT_EMAIL_FIELD = "//input[@id = 'input_565']";
+        public static final String INPUT_EMAIL_FIELD = "//form//input[@type = 'email']";
         public static final String SEND_EMAIL_BUTTON = "//button[contains(text(), 'Send Email')]";
     }
 
