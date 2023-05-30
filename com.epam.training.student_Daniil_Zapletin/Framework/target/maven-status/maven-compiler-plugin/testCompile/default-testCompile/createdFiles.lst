@@ -1,0 +1,17 @@
+page\Constants$SearchResultsPageConstants.class
+page\Constants$HomePageConstants.class
+page\Constants$YopmailPageConstants.class
+test\CommonConditions.class
+page\Constants.class
+page\GoogleCloudSearchResultPage.class
+page\GoogleCloudPricingCalculatorPage.class
+test\EmailAndCloudGooglePageCostComparisonTest.class
+page\Constants$PricingCalculatorPageConstants.class
+util\TestListener.class
+service\TestDataReader.class
+page\GoogleCloudHomePage.class
+driver\DriverSingleton.class
+page\YopmailPage.class
+page\AbstractPage.class
+service\GoogleCloudPricingCalculatorConfigurationCreator.class
+model\PricingCalculatorPageConfiguration.class
