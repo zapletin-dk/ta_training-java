@@ -182,8 +182,9 @@ public class GoogleCloudPricingCalculatorPage extends AbstractPage{
 
     public GoogleCloudPricingCalculatorPage sendEmail(String email){
         new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.elementToBeClickable(sendEmailLink)).click();
-        new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT)).until(ExpectedConditions.elementToBeClickable(inputEmailField)).click();
-        inputEmailField.sendKeys(email);
+        logger.info("Send email link clicked");
+        waitUntilVisibility(inputEmailField).sendKeys(email);
+        logger.info("Email field is filled")
         sendEmailButton.click();
         logger.info("Email with estimated cost has been send");
         return this;
