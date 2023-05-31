@@ -21,7 +21,7 @@ public class EmailAndCloudGooglePageCostComparisonTest extends CommonConditions 
     public void configureModel(){
         pageConfiguration = GoogleCloudPricingCalculatorConfigurationCreator.createWithProperty();
     }
-    @BeforeMethod
+    
     public void pricingCalculatorConfiguration() {
 
         YopmailPage yopmailPage = new YopmailPage(driver, logger);
@@ -50,6 +50,7 @@ public class EmailAndCloudGooglePageCostComparisonTest extends CommonConditions 
 
     @Test
     public void estimatedCostTest() {
+        pricingCalculatorConfiguration();
         Assert.assertEquals (actualEstimatedCost, expectedEstimatedCost, "The estimated cost is incorrect!");
     }
 }
