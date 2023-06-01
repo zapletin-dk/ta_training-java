@@ -1,29 +1,19 @@
 package test;
 
-import model.PricingCalculatorPageConfiguration;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WindowType;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import page.GoogleCloudHomePage;
 import page.YopmailPage;
-import service.GoogleCloudPricingCalculatorConfigurationCreator;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class EmailAndCloudGooglePageCostComparisonTest extends CommonConditions {
-    PricingCalculatorPageConfiguration pageConfiguration;
+
     Logger logger = LogManager.getRootLogger();
     private static String expectedEstimatedCost;
     private static String actualEstimatedCost;
 
-    @BeforeMethod
-    public void configureModel(){
-        pageConfiguration = GoogleCloudPricingCalculatorConfigurationCreator.createWithProperty();
-    }
     public void pricingCalculatorConfiguration() {
 
         YopmailPage yopmailPage = new YopmailPage(driver, logger);
@@ -43,12 +33,10 @@ public class EmailAndCloudGooglePageCostComparisonTest extends CommonConditions 
                 .fillForm()
                 .sendEmail(emailAddress);
 
-        List<String> tabs = new ArrayList<>(driver.getWindowHandles());
-        driver.switchTo().window(tabs.get(0));
-
+        driver.switchTo().window(yopmailPage.getMailHomePageHandle());
         actualEstimatedCost = yopmailPage.checkEmailBox().getTotalEstimatedCost();
 
-        expectedEstimatedCost = pageConfiguration.getTotalEstimate();
+        expectedEstimatedCost = pageConfiguration.totalEstimate();
     }
 
     @Test

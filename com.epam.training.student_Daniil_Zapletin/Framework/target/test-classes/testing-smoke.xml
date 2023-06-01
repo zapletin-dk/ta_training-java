@@ -3,7 +3,7 @@
 <suite name="Smoke" verbose="1" >
     <test name="Smoke"   >
         <classes>
-            <class name="test.EmailAndCloudGooglePageCostComparisonTest" />
+            <class name="test.YopmailURLTest" />
         </classes>
     </test>
 </suite>

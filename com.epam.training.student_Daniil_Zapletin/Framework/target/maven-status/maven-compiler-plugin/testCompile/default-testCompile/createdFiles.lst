@@ -10,6 +10,7 @@ page\Constants$PricingCalculatorPageConstants.class
 util\TestListener.class
 service\TestDataReader.class
 page\GoogleCloudHomePage.class
+test\YopmailURLTest.class
 driver\DriverSingleton.class
 page\YopmailPage.class
 page\AbstractPage.class

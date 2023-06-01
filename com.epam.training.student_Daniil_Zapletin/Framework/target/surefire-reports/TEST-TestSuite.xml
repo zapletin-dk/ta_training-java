@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="36.363" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="41.109" tests="2" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="surefire.suiteXmlFiles" value="src\test\resources\testing-smoke.xml"/>
+    <property name="surefire.suiteXmlFiles" value="src\test\resources\testing-all.xml"/>
     <property name="java.specification.version" value="19"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Asus\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire16076820115451353492\surefirebooter-20230530233908819_3.jar C:\Users\Asus\AppData\Local\Temp\surefire16076820115451353492 2023-05-30T23-39-08_443-jvmRun1 surefire-20230530233908819_1tmp surefire_0-20230530233908819_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire7597500244852458130\surefirebooter-20230601053059484_3.jar C:\Users\Asus\AppData\Local\Temp\surefire7597500244852458130 2023-06-01T05-30-59_089-jvmRun1 surefire-20230601053059484_1tmp surefire_0-20230601053059484_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="c:\Java_projects\com.epam.training.student_Daniil_Zapletin\Framework\target\test-classes;c:\Java_projects\com.epam.training.student_Daniil_Zapletin\Framework\target\classes;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.2\selenium-java-4.8.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.2\selenium-api-4.8.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.2\selenium-chrome-driver-4.8.2.jar;C:\Users\Asus\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Asus\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Asus\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Asus\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Asus\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Asus\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Asus\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Asus\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Asus\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Asus\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.2\selenium-chromium-driver-4.8.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.2\selenium-json-4.8.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.2\selenium-manager-4.8.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.2\selenium-devtools-v109-4.8.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.2\selenium-devtools-v110-4.8.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.8.2\selenium-devtools-v111-4.8.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.2\selenium-devtools-v85-4.8.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.2\selenium-edge-driver-4.8.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.2\selenium-firefox-driver-4.8.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.2\selenium-http-4.8.2.jar;C:\Users\Asus\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.2\selenium-ie-driver-4.8.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.2\selenium-remote-driver-4.8.2.jar;C:\Users\Asus\.m2\repository\io\netty\netty-buffer\4.1.90.Final\netty-buffer-4.1.90.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-codec-http\4.1.90.Final\netty-codec-http-4.1.90.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-codec\4.1.90.Final\netty-codec-4.1.90.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-handler\4.1.90.Final\netty-handler-4.1.90.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-common\4.1.90.Final\netty-common-4.1.90.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.90.Final\netty-transport-classes-epoll-4.1.90.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.90.Final\netty-transport-classes-kqueue-4.1.90.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport-native-epoll\4.1.90.Final\netty-transport-native-epoll-4.1.90.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.90.Final\netty-transport-native-kqueue-4.1.90.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.90.Final\netty-transport-native-unix-common-4.1.90.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport\4.1.90.Final\netty-transport-4.1.90.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-resolver\4.1.90.Final\netty-resolver-4.1.90.Final.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-api\1.24.0\opentelemetry-api-1.24.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-context\1.24.0\opentelemetry-context-1.24.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.24.0\opentelemetry-exporter-logging-1.24.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.24.0\opentelemetry-sdk-metrics-1.24.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.24.0-alpha\opentelemetry-sdk-logs-1.24.0-alpha.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.24.0-alpha\opentelemetry-api-logs-1.24.0-alpha.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.24.0-alpha\opentelemetry-api-events-1.24.0-alpha.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.24.0\opentelemetry-sdk-common-1.24.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.24.0\opentelemetry-sdk-extension-autoconfigure-spi-1.24.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.24.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.24.0-alpha.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.24.0\opentelemetry-sdk-trace-1.24.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.24.0\opentelemetry-sdk-1.24.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.24.0-alpha\opentelemetry-semconv-1.24.0-alpha.jar;C:\Users\Asus\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Asus\.m2\repository\net\bytebuddy\byte-buddy\1.14.2\byte-buddy-1.14.2.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Asus\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Asus\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Asus\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Asus\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Asus\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Asus\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Asus\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.2\selenium-safari-driver-4.8.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.2\selenium-support-4.8.2.jar;C:\Users\Asus\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Asus\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Asus\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Asus\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\Asus\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Asus\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Asus\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Asus\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Asus\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Asus\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\Asus\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\Asus\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\Asus\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Asus\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Asus\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Asus\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire16076820115451353492\surefirebooter-20230530233908819_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire7597500244852458130\surefirebooter-20230601053059484_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.1+10-21"/>
@@ -62,18 +62,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="estimatedCostTest" classname="test.EmailAndCloudGooglePageCostComparisonTest" time="0.007">
-    <system-out><![CDATA[2023-05-30 23:39:10,646 DEBUG logging.InternalLoggerFactory [main] io.netty.util.internal.logging.InternalLoggerFactory.useLog4J2LoggerFactory(InternalLoggerFactory.java:76) Using Log4J2 as the default logging framework
-2023-05-30 23:39:10,656 DEBUG util.ResourceLeakDetector [main] io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:129) -Dio.netty.leakDetection.level: simple
-2023-05-30 23:39:10,657 DEBUG util.ResourceLeakDetector [main] io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:130) -Dio.netty.leakDetection.targetRecords: 4
-2023-05-30 23:39:10,663 DEBUG util.ResourceLeakDetectorFactory [main] io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector(ResourceLeakDetectorFactory.java:196) Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1b32cd16
-2023-05-30 23:39:10,684 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.explicitNoUnsafeCause0(PlatformDependent0.java:496) -Dio.netty.noUnsafe: false
-2023-05-30 23:39:10,685 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.javaVersion0(PlatformDependent0.java:1000) Java version: 19
-2023-05-30 23:39:10,687 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:137) sun.misc.Unsafe.theUnsafe: available
-2023-05-30 23:39:10,688 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:161) sun.misc.Unsafe.copyMemory: available
-2023-05-30 23:39:10,689 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:193) sun.misc.Unsafe.storeFence: available
-2023-05-30 23:39:10,691 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:236) java.nio.Buffer.address: available
-2023-05-30 23:39:10,692 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:317) direct buffer constructor: unavailable
+  <testcase name="estimatedCostTest" classname="test.EmailAndCloudGooglePageCostComparisonTest" time="33.512">
+    <system-out><![CDATA[2023-06-01 05:31:01,325 DEBUG logging.InternalLoggerFactory [main] io.netty.util.internal.logging.InternalLoggerFactory.useLog4J2LoggerFactory(InternalLoggerFactory.java:76) Using Log4J2 as the default logging framework
+2023-06-01 05:31:01,335 DEBUG util.ResourceLeakDetector [main] io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:129) -Dio.netty.leakDetection.level: simple
+2023-06-01 05:31:01,335 DEBUG util.ResourceLeakDetector [main] io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:130) -Dio.netty.leakDetection.targetRecords: 4
+2023-06-01 05:31:01,339 DEBUG util.ResourceLeakDetectorFactory [main] io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector(ResourceLeakDetectorFactory.java:196) Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4f20a5e0
+2023-06-01 05:31:01,356 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.explicitNoUnsafeCause0(PlatformDependent0.java:496) -Dio.netty.noUnsafe: false
+2023-06-01 05:31:01,356 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.javaVersion0(PlatformDependent0.java:1000) Java version: 19
+2023-06-01 05:31:01,358 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:137) sun.misc.Unsafe.theUnsafe: available
+2023-06-01 05:31:01,359 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:161) sun.misc.Unsafe.copyMemory: available
+2023-06-01 05:31:01,360 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:193) sun.misc.Unsafe.storeFence: available
+2023-06-01 05:31:01,360 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:236) java.nio.Buffer.address: available
+2023-06-01 05:31:01,361 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:317) direct buffer constructor: unavailable
 java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
 	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
@@ -101,7 +101,7 @@ java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84) ~[selenium-chrome-driver-4.8.2.jar:?]
 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52) ~[selenium-chrome-driver-4.8.2.jar:?]
 	at driver.DriverSingleton.getDriver(DriverSingleton.java:24) ~[test-classes/:?]
-	at test.CommonConditions.setUp(CommonConditions.java:16) ~[test-classes/:?]
+	at test.CommonConditions.setUp(CommonConditions.java:19) ~[test-classes/:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.0.jar:7.7.0]
@@ -130,9 +130,9 @@ java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
-2023-05-30 23:39:10,714 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:385) java.nio.Bits.unaligned: available, true
-2023-05-30 23:39:10,716 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:449) jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
-java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @27ae2fd0
+2023-06-01 05:31:01,378 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:385) java.nio.Bits.unaligned: available, true
+2023-06-01 05:31:01,380 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:449) jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7ee955a8
 	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:420) ~[?:?]
 	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:709) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
@@ -161,7 +161,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84) ~[selenium-chrome-driver-4.8.2.jar:?]
 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52) ~[selenium-chrome-driver-4.8.2.jar:?]
 	at driver.DriverSingleton.getDriver(DriverSingleton.java:24) ~[test-classes/:?]
-	at test.CommonConditions.setUp(CommonConditions.java:16) ~[test-classes/:?]
+	at test.CommonConditions.setUp(CommonConditions.java:19) ~[test-classes/:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.0.jar:7.7.0]
@@ -190,104 +190,139 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581) [surefire-booter-3.0.0-M7.jar:3.0.0-M7]
-2023-05-30 23:39:10,719 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:482) java.nio.DirectByteBuffer.<init>(long, int): unavailable
-2023-05-30 23:39:10,720 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.unsafeUnavailabilityCause0(PlatformDependent.java:1159) sun.misc.Unsafe: available
-2023-05-30 23:39:10,721 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.estimateMaxDirectMemory(PlatformDependent.java:1270) maxDirectMemory: 2118123520 bytes (maybe)
-2023-05-30 23:39:10,722 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.tmpdir0(PlatformDependent.java:1289) -Dio.netty.tmpdir: C:\Users\Asus\AppData\Local\Temp (java.io.tmpdir)
-2023-05-30 23:39:10,722 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.bitMode0(PlatformDependent.java:1368) -Dio.netty.bitMode: 64 (sun.arch.data.model)
-2023-05-30 23:39:10,723 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.isWindows0(PlatformDependent.java:1119) Platform: Windows
-2023-05-30 23:39:10,724 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:178) -Dio.netty.maxDirectMemory: -1 bytes
-2023-05-30 23:39:10,724 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:185) -Dio.netty.uninitializedArrayAllocationThreshold: -1
-2023-05-30 23:39:10,726 DEBUG internal.CleanerJava9 [main] io.netty.util.internal.CleanerJava9.<clinit>(CleanerJava9.java:71) java.nio.ByteBuffer.cleaner(): available
-2023-05-30 23:39:10,726 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:205) -Dio.netty.noPreferDirect: false
-2023-05-30 23:39:10,733 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent$Mpsc.<clinit>(PlatformDependent.java:1010) org.jctools-core.MpscChunkedArrayQueue: available
-2023-05-30 23:39:10,753 DEBUG internal.InternalThreadLocalMap [main] io.netty.util.internal.InternalThreadLocalMap.<clinit>(InternalThreadLocalMap.java:100) -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-2023-05-30 23:39:10,753 DEBUG internal.InternalThreadLocalMap [main] io.netty.util.internal.InternalThreadLocalMap.<clinit>(InternalThreadLocalMap.java:101) -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-2023-05-30 23:39:10,827 DEBUG ssl.JdkSslContext [main] io.netty.handler.ssl.JdkSslContext.<clinit>(JdkSslContext.java:83) Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-2023-05-30 23:39:10,827 DEBUG ssl.JdkSslContext [main] io.netty.handler.ssl.JdkSslContext.<clinit>(JdkSslContext.java:84) Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-2023-05-30 23:39:10,840 DEBUG concurrent.GlobalEventExecutor [main] io.netty.util.concurrent.GlobalEventExecutor.<clinit>(GlobalEventExecutor.java:53) -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
-2023-05-30 23:39:10,851 DEBUG channel.MultithreadEventLoopGroup [main] io.netty.channel.MultithreadEventLoopGroup.<clinit>(MultithreadEventLoopGroup.java:44) -Dio.netty.eventLoopThreads: 16
-2023-05-30 23:39:10,859 DEBUG nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:110) -Dio.netty.noKeySetOptimization: false
-2023-05-30 23:39:10,859 DEBUG nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:111) -Dio.netty.selectorAutoRebuildThreshold: 512
-2023-05-30 23:39:10,870 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3e1624c7
-2023-05-30 23:39:10,872 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@610df783
-2023-05-30 23:39:10,873 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@f3fcd59
-2023-05-30 23:39:10,875 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2b56f5f8
-2023-05-30 23:39:10,876 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@79d743e6
-2023-05-30 23:39:10,878 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@776802b0
-2023-05-30 23:39:10,880 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@64c4c01
-2023-05-30 23:39:10,882 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1aa99005
-2023-05-30 23:39:10,883 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@592238c5
-2023-05-30 23:39:10,885 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6ee8dcd3
-2023-05-30 23:39:10,887 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@a20b94b
-2023-05-30 23:39:10,889 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5cdf39b2
-2023-05-30 23:39:10,890 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@14f3c6fc
-2023-05-30 23:39:10,892 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3cd59ef5
-2023-05-30 23:39:10,893 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@33b082c5
-2023-05-30 23:39:10,895 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@16073fa8
-2023-05-30 23:39:10,914 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:157) -Dio.netty.allocator.numHeapArenas: 16
-2023-05-30 23:39:10,914 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:158) -Dio.netty.allocator.numDirectArenas: 16
-2023-05-30 23:39:10,915 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:160) -Dio.netty.allocator.pageSize: 8192
-2023-05-30 23:39:10,915 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:165) -Dio.netty.allocator.maxOrder: 9
-2023-05-30 23:39:10,916 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:169) -Dio.netty.allocator.chunkSize: 4194304
-2023-05-30 23:39:10,916 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:170) -Dio.netty.allocator.smallCacheSize: 256
-2023-05-30 23:39:10,916 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:171) -Dio.netty.allocator.normalCacheSize: 64
-2023-05-30 23:39:10,917 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:172) -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-2023-05-30 23:39:10,917 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:173) -Dio.netty.allocator.cacheTrimInterval: 8192
-2023-05-30 23:39:10,917 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:174) -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-2023-05-30 23:39:10,918 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:175) -Dio.netty.allocator.useCacheForAllThreads: false
-2023-05-30 23:39:10,918 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:176) -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-2023-05-30 23:39:10,930 DEBUG buffer.ByteBufUtil [main] io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:88) -Dio.netty.allocator.type: pooled
-2023-05-30 23:39:10,930 DEBUG buffer.ByteBufUtil [main] io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:97) -Dio.netty.threadLocalDirectBufferSize: 0
-2023-05-30 23:39:10,931 DEBUG buffer.ByteBufUtil [main] io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:100) -Dio.netty.maxThreadLocalCharBufferSize: 16384
-2023-05-30 23:39:11,203 DEBUG channel.DefaultChannelId [Forwarding newSession on session null to remote] io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:79) -Dio.netty.processId: 17348 (auto-detected)
-2023-05-30 23:39:11,205 DEBUG util.NetUtil [Forwarding newSession on session null to remote] io.netty.util.NetUtil.<clinit>(NetUtil.java:142) -Djava.net.preferIPv4Stack: false
-2023-05-30 23:39:11,205 DEBUG util.NetUtil [Forwarding newSession on session null to remote] io.netty.util.NetUtil.<clinit>(NetUtil.java:143) -Djava.net.preferIPv6Addresses: false
-2023-05-30 23:39:11,214 DEBUG util.NetUtilInitializations [Forwarding newSession on session null to remote] io.netty.util.NetUtilInitializations.determineLoopback(NetUtilInitializations.java:145) Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-2023-05-30 23:39:11,216 DEBUG util.NetUtil [Forwarding newSession on session null to remote] io.netty.util.NetUtil$SoMaxConnAction.run(NetUtil.java:200) Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-2023-05-30 23:39:11,230 DEBUG channel.DefaultChannelId [Forwarding newSession on session null to remote] io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:101) -Dio.netty.machineId: 60:f6:77:ff:fe:68:b3:ed (auto-detected)
-2023-05-30 23:39:11,275 DEBUG buffer.AbstractByteBuf [AsyncHttpClient-1-2] io.netty.buffer.AbstractByteBuf.<clinit>(AbstractByteBuf.java:63) -Dio.netty.buffer.checkAccessible: true
-2023-05-30 23:39:11,276 DEBUG buffer.AbstractByteBuf [AsyncHttpClient-1-2] io.netty.buffer.AbstractByteBuf.<clinit>(AbstractByteBuf.java:64) -Dio.netty.buffer.checkBounds: true
-2023-05-30 23:39:11,276 DEBUG util.ResourceLeakDetectorFactory [AsyncHttpClient-1-2] io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector(ResourceLeakDetectorFactory.java:196) Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@47a479f
-2023-05-30 23:39:11,298 DEBUG util.Recycler [AsyncHttpClient-1-2] io.netty.util.Recycler.<clinit>(Recycler.java:96) -Dio.netty.recycler.maxCapacityPerThread: 4096
-2023-05-30 23:39:11,298 DEBUG util.Recycler [AsyncHttpClient-1-2] io.netty.util.Recycler.<clinit>(Recycler.java:97) -Dio.netty.recycler.ratio: 8
-2023-05-30 23:39:11,298 DEBUG util.Recycler [AsyncHttpClient-1-2] io.netty.util.Recycler.<clinit>(Recycler.java:98) -Dio.netty.recycler.chunkSize: 32
-2023-05-30 23:39:11,299 DEBUG util.Recycler [AsyncHttpClient-1-2] io.netty.util.Recycler.<clinit>(Recycler.java:99) -Dio.netty.recycler.blocking: false
-2023-05-30 23:39:11,299 DEBUG util.Recycler [AsyncHttpClient-1-2] io.netty.util.Recycler.<clinit>(Recycler.java:100) -Dio.netty.recycler.batchFastThreadLocalOnly: true
-2023-05-30 23:39:12,032 DEBUG compression.Brotli [AsyncHttpClient-1-2] io.netty.handler.codec.compression.Brotli.<clinit>(Brotli.java:38) brotli4j not in the classpath; Brotli support will be unavailable.
-2023-05-30 23:39:12,143 DEBUG internal.ThreadLocalRandom [main] io.netty.util.internal.ThreadLocalRandom.newSeed(ThreadLocalRandom.java:214) -Dio.netty.initialSeedUniquifier: 0x099bd55c23cc98d4
-2023-05-30 23:39:12,228 INFO  [main] page.YopmailPage.openPage(YopmailPage.java:28) Trying to open the Yopmail home page
-2023-05-30 23:39:16,161 INFO  [main] page.YopmailPage.openPage(YopmailPage.java:33) The Yopmail home page has been opened
-2023-05-30 23:39:16,161 INFO  [main] page.YopmailPage.generateEmail(YopmailPage.java:37) Trying to generate random email
-2023-05-30 23:39:17,540 INFO  [main] page.YopmailPage.generateEmail(YopmailPage.java:39) Random email has been created
-2023-05-30 23:39:17,830 INFO  [main] page.GoogleCloudHomePage.openPage(GoogleCloudHomePage.java:23) Trying to open the Google Cloud home page
-2023-05-30 23:39:23,508 INFO  [main] page.GoogleCloudHomePage.openPage(GoogleCloudHomePage.java:27) The Google Cloud home page has been opened
-2023-05-30 23:39:24,016 INFO  [main] page.GoogleCloudHomePage.searchOnRequest(GoogleCloudHomePage.java:34) Redirecting to the Google Cloud Pricing Calculator search page
-2023-05-30 23:39:33,528 INFO  [main] page.GoogleCloudSearchResultPage.followPricingCalculatorLink(GoogleCloudSearchResultPage.java:21) Following the Google Pricing Calculator link
-2023-05-30 23:39:33,682 INFO  [main] page.GoogleCloudPricingCalculatorPage.selectCalculatorFrame(GoogleCloudPricingCalculatorPage.java:93) Redirected to the calculator frame
-2023-05-30 23:39:33,993 INFO  [main] page.GoogleCloudPricingCalculatorPage.fillNumberOfInstance(GoogleCloudPricingCalculatorPage.java:99) Number of instance field is filled
-2023-05-30 23:39:34,922 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseOSSoftware(GoogleCloudPricingCalculatorPage.java:106) OS Software value has been chosen
-2023-05-30 23:39:35,826 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseProvisioningModel(GoogleCloudPricingCalculatorPage.java:113) Provisioning model has been chosen
-2023-05-30 23:39:36,760 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseSeries(GoogleCloudPricingCalculatorPage.java:120) Series type has been chosen
-2023-05-30 23:39:37,761 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseMachineType(GoogleCloudPricingCalculatorPage.java:127) Machine type has been chosen
-2023-05-30 23:39:38,041 INFO  [main] page.GoogleCloudPricingCalculatorPage.tickGPUsMarkBox(GoogleCloudPricingCalculatorPage.java:138) GPUs mark box has been ticked
-2023-05-30 23:39:39,980 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseGpuTypeAndNumber(GoogleCloudPricingCalculatorPage.java:147) GPUs type and number have been chosen
-2023-05-30 23:39:40,914 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseLocalSSDValue(GoogleCloudPricingCalculatorPage.java:154) Local SSD value has been chosen
-2023-05-30 23:39:41,907 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseDatacenterLocation(GoogleCloudPricingCalculatorPage.java:161) Datacenter location has been chosen
-2023-05-30 23:39:42,859 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseCommittedUsage(GoogleCloudPricingCalculatorPage.java:168) Committed usage duration has been chosen
-2023-05-30 23:39:43,179 INFO  [main] page.GoogleCloudPricingCalculatorPage.addToEstimate(GoogleCloudPricingCalculatorPage.java:174) Form has been estimated
-2023-05-30 23:39:44,280 INFO  [main] page.GoogleCloudPricingCalculatorPage.sendEmail(GoogleCloudPricingCalculatorPage.java:183) Email with estimated cost has been send
-2023-05-30 23:39:44,354 INFO  [main] page.YopmailPage.checkEmailBox(YopmailPage.java:48) Trying to check email box
-2023-05-30 23:39:45,168 INFO  [main] page.YopmailPage.checkEmailBox(YopmailPage.java:50) Redirected to email box
+2023-06-01 05:31:01,382 DEBUG internal.PlatformDependent0 [main] io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:482) java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-06-01 05:31:01,383 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.unsafeUnavailabilityCause0(PlatformDependent.java:1159) sun.misc.Unsafe: available
+2023-06-01 05:31:01,384 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.estimateMaxDirectMemory(PlatformDependent.java:1270) maxDirectMemory: 2118123520 bytes (maybe)
+2023-06-01 05:31:01,384 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.tmpdir0(PlatformDependent.java:1289) -Dio.netty.tmpdir: C:\Users\Asus\AppData\Local\Temp (java.io.tmpdir)
+2023-06-01 05:31:01,385 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.bitMode0(PlatformDependent.java:1368) -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-06-01 05:31:01,385 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.isWindows0(PlatformDependent.java:1119) Platform: Windows
+2023-06-01 05:31:01,386 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:178) -Dio.netty.maxDirectMemory: -1 bytes
+2023-06-01 05:31:01,386 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:185) -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-06-01 05:31:01,388 DEBUG internal.CleanerJava9 [main] io.netty.util.internal.CleanerJava9.<clinit>(CleanerJava9.java:71) java.nio.ByteBuffer.cleaner(): available
+2023-06-01 05:31:01,388 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:205) -Dio.netty.noPreferDirect: false
+2023-06-01 05:31:01,395 DEBUG internal.PlatformDependent [main] io.netty.util.internal.PlatformDependent$Mpsc.<clinit>(PlatformDependent.java:1010) org.jctools-core.MpscChunkedArrayQueue: available
+2023-06-01 05:31:01,428 DEBUG internal.InternalThreadLocalMap [main] io.netty.util.internal.InternalThreadLocalMap.<clinit>(InternalThreadLocalMap.java:100) -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-06-01 05:31:01,429 DEBUG internal.InternalThreadLocalMap [main] io.netty.util.internal.InternalThreadLocalMap.<clinit>(InternalThreadLocalMap.java:101) -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-06-01 05:31:01,483 DEBUG ssl.JdkSslContext [main] io.netty.handler.ssl.JdkSslContext.<clinit>(JdkSslContext.java:83) Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-06-01 05:31:01,484 DEBUG ssl.JdkSslContext [main] io.netty.handler.ssl.JdkSslContext.<clinit>(JdkSslContext.java:84) Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-06-01 05:31:01,498 DEBUG concurrent.GlobalEventExecutor [main] io.netty.util.concurrent.GlobalEventExecutor.<clinit>(GlobalEventExecutor.java:53) -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-06-01 05:31:01,509 DEBUG channel.MultithreadEventLoopGroup [main] io.netty.channel.MultithreadEventLoopGroup.<clinit>(MultithreadEventLoopGroup.java:44) -Dio.netty.eventLoopThreads: 16
+2023-06-01 05:31:01,516 DEBUG nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:110) -Dio.netty.noKeySetOptimization: false
+2023-06-01 05:31:01,516 DEBUG nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:111) -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-06-01 05:31:01,526 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4992613f
+2023-06-01 05:31:01,528 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@53ac845a
+2023-06-01 05:31:01,530 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5136207f
+2023-06-01 05:31:01,531 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@26a4551a
+2023-06-01 05:31:01,533 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3fdecce
+2023-06-01 05:31:01,534 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@344426bf
+2023-06-01 05:31:01,536 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5411dd90
+2023-06-01 05:31:01,537 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@50194e8d
+2023-06-01 05:31:01,538 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3cee53dc
+2023-06-01 05:31:01,540 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@290aeb20
+2023-06-01 05:31:01,541 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@73ad4ecc
+2023-06-01 05:31:01,543 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@69da0b12
+2023-06-01 05:31:01,544 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2764c546
+2023-06-01 05:31:01,546 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@59496961
+2023-06-01 05:31:01,547 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@408b87aa
+2023-06-01 05:31:01,549 TRACE nio.NioEventLoop [main] io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:264) instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@79b08632
+2023-06-01 05:31:01,565 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:157) -Dio.netty.allocator.numHeapArenas: 16
+2023-06-01 05:31:01,565 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:158) -Dio.netty.allocator.numDirectArenas: 16
+2023-06-01 05:31:01,565 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:160) -Dio.netty.allocator.pageSize: 8192
+2023-06-01 05:31:01,566 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:165) -Dio.netty.allocator.maxOrder: 9
+2023-06-01 05:31:01,566 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:169) -Dio.netty.allocator.chunkSize: 4194304
+2023-06-01 05:31:01,566 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:170) -Dio.netty.allocator.smallCacheSize: 256
+2023-06-01 05:31:01,566 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:171) -Dio.netty.allocator.normalCacheSize: 64
+2023-06-01 05:31:01,566 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:172) -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-06-01 05:31:01,566 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:173) -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-06-01 05:31:01,567 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:174) -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-06-01 05:31:01,567 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:175) -Dio.netty.allocator.useCacheForAllThreads: false
+2023-06-01 05:31:01,567 DEBUG buffer.PooledByteBufAllocator [main] io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:176) -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-06-01 05:31:01,576 DEBUG buffer.ByteBufUtil [main] io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:88) -Dio.netty.allocator.type: pooled
+2023-06-01 05:31:01,577 DEBUG buffer.ByteBufUtil [main] io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:97) -Dio.netty.threadLocalDirectBufferSize: 0
+2023-06-01 05:31:01,577 DEBUG buffer.ByteBufUtil [main] io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:100) -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-06-01 05:31:01,863 DEBUG channel.DefaultChannelId [Forwarding newSession on session null to remote] io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:79) -Dio.netty.processId: 16452 (auto-detected)
+2023-06-01 05:31:01,865 DEBUG util.NetUtil [Forwarding newSession on session null to remote] io.netty.util.NetUtil.<clinit>(NetUtil.java:142) -Djava.net.preferIPv4Stack: false
+2023-06-01 05:31:01,865 DEBUG util.NetUtil [Forwarding newSession on session null to remote] io.netty.util.NetUtil.<clinit>(NetUtil.java:143) -Djava.net.preferIPv6Addresses: false
+2023-06-01 05:31:01,873 DEBUG util.NetUtilInitializations [Forwarding newSession on session null to remote] io.netty.util.NetUtilInitializations.determineLoopback(NetUtilInitializations.java:145) Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-06-01 05:31:01,878 DEBUG util.NetUtil [Forwarding newSession on session null to remote] io.netty.util.NetUtil$SoMaxConnAction.run(NetUtil.java:200) Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-06-01 05:31:01,891 DEBUG channel.DefaultChannelId [Forwarding newSession on session null to remote] io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:101) -Dio.netty.machineId: 60:f6:77:ff:fe:68:b3:ed (auto-detected)
+2023-06-01 05:31:01,938 DEBUG buffer.AbstractByteBuf [AsyncHttpClient-1-2] io.netty.buffer.AbstractByteBuf.<clinit>(AbstractByteBuf.java:63) -Dio.netty.buffer.checkAccessible: true
+2023-06-01 05:31:01,939 DEBUG buffer.AbstractByteBuf [AsyncHttpClient-1-2] io.netty.buffer.AbstractByteBuf.<clinit>(AbstractByteBuf.java:64) -Dio.netty.buffer.checkBounds: true
+2023-06-01 05:31:01,939 DEBUG util.ResourceLeakDetectorFactory [AsyncHttpClient-1-2] io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector(ResourceLeakDetectorFactory.java:196) Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7d72aea9
+2023-06-01 05:31:01,961 DEBUG util.Recycler [AsyncHttpClient-1-2] io.netty.util.Recycler.<clinit>(Recycler.java:96) -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-06-01 05:31:01,961 DEBUG util.Recycler [AsyncHttpClient-1-2] io.netty.util.Recycler.<clinit>(Recycler.java:97) -Dio.netty.recycler.ratio: 8
+2023-06-01 05:31:01,962 DEBUG util.Recycler [AsyncHttpClient-1-2] io.netty.util.Recycler.<clinit>(Recycler.java:98) -Dio.netty.recycler.chunkSize: 32
+2023-06-01 05:31:01,962 DEBUG util.Recycler [AsyncHttpClient-1-2] io.netty.util.Recycler.<clinit>(Recycler.java:99) -Dio.netty.recycler.blocking: false
+2023-06-01 05:31:01,962 DEBUG util.Recycler [AsyncHttpClient-1-2] io.netty.util.Recycler.<clinit>(Recycler.java:100) -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-06-01 05:31:02,681 DEBUG compression.Brotli [AsyncHttpClient-1-2] io.netty.handler.codec.compression.Brotli.<clinit>(Brotli.java:38) brotli4j not in the classpath; Brotli support will be unavailable.
+2023-06-01 05:31:02,805 DEBUG internal.ThreadLocalRandom [main] io.netty.util.internal.ThreadLocalRandom.newSeed(ThreadLocalRandom.java:214) -Dio.netty.initialSeedUniquifier: 0x10e34ec3de9a35f6
+2023-06-01 05:31:02,878 INFO  [main] page.YopmailPage.openPage(YopmailPage.java:34) Trying to open the Yopmail home page
+2023-06-01 05:31:05,895 INFO  [main] page.YopmailPage.openPage(YopmailPage.java:39) The Yopmail home page has been opened
+2023-06-01 05:31:05,896 INFO  [main] page.YopmailPage.generateEmail(YopmailPage.java:43) Trying to generate random email
+2023-06-01 05:31:08,850 INFO  [main] page.YopmailPage.generateEmail(YopmailPage.java:45) Random email has been created
+2023-06-01 05:31:09,026 INFO  [main] page.GoogleCloudHomePage.openPage(GoogleCloudHomePage.java:22) Trying to open the Google Cloud home page
+2023-06-01 05:31:14,063 INFO  [main] page.GoogleCloudHomePage.openPage(GoogleCloudHomePage.java:26) The Google Cloud home page has been opened
+2023-06-01 05:31:14,603 INFO  [main] page.GoogleCloudHomePage.searchOnRequest(GoogleCloudHomePage.java:33) Redirecting to the Google Cloud Pricing Calculator search page
+2023-06-01 05:31:22,625 INFO  [main] page.GoogleCloudSearchResultPage.followPricingCalculatorLink(GoogleCloudSearchResultPage.java:21) Following the Google Pricing Calculator link
+2023-06-01 05:31:22,771 INFO  [main] page.GoogleCloudPricingCalculatorPage.selectCalculatorFrame(GoogleCloudPricingCalculatorPage.java:98) Redirected to the calculator frame
+2023-06-01 05:31:23,123 INFO  [main] page.GoogleCloudPricingCalculatorPage.fillNumberOfInstance(GoogleCloudPricingCalculatorPage.java:104) Number of instance field is filled
+2023-06-01 05:31:24,073 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseOSSoftware(GoogleCloudPricingCalculatorPage.java:111) OS Software value has been chosen
+2023-06-01 05:31:25,008 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseProvisioningModel(GoogleCloudPricingCalculatorPage.java:118) Provisioning model has been chosen
+2023-06-01 05:31:25,935 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseSeries(GoogleCloudPricingCalculatorPage.java:125) Series type has been chosen
+2023-06-01 05:31:26,922 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseMachineType(GoogleCloudPricingCalculatorPage.java:132) Machine type has been chosen
+2023-06-01 05:31:27,199 INFO  [main] page.GoogleCloudPricingCalculatorPage.tickGPUsMarkBox(GoogleCloudPricingCalculatorPage.java:143) GPUs mark box has been ticked
+2023-06-01 05:31:29,165 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseGpuTypeAndNumber(GoogleCloudPricingCalculatorPage.java:152) GPUs type and number have been chosen
+2023-06-01 05:31:30,091 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseLocalSSDValue(GoogleCloudPricingCalculatorPage.java:159) Local SSD value has been chosen
+2023-06-01 05:31:31,066 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseDatacenterLocation(GoogleCloudPricingCalculatorPage.java:166) Datacenter location has been chosen
+2023-06-01 05:31:32,037 INFO  [main] page.GoogleCloudPricingCalculatorPage.chooseCommittedUsage(GoogleCloudPricingCalculatorPage.java:173) Committed usage duration has been chosen
+2023-06-01 05:31:32,359 INFO  [main] page.GoogleCloudPricingCalculatorPage.addToEstimate(GoogleCloudPricingCalculatorPage.java:179) Form has been estimated
+2023-06-01 05:31:32,754 INFO  [main] page.GoogleCloudPricingCalculatorPage.sendEmail(GoogleCloudPricingCalculatorPage.java:185) Send email link clicked
+2023-06-01 05:31:33,262 INFO  [main] page.GoogleCloudPricingCalculatorPage.sendEmail(GoogleCloudPricingCalculatorPage.java:188) Email with estimated cost has been send
+2023-06-01 05:31:33,277 INFO  [main] page.YopmailPage.checkEmailBox(YopmailPage.java:54) Trying to check email box
+2023-06-01 05:31:35,617 INFO  [main] page.YopmailPage.checkEmailBox(YopmailPage.java:58) Redirected to email box
+2023-06-01 05:31:35,617 INFO  [main] page.YopmailPage.getTotalEstimatedCost(YopmailPage.java:67) Trying to search for email message in mail box
+2023-06-01 05:31:36,321 INFO  [main] page.YopmailPage.getTotalEstimatedCost(YopmailPage.java:71) Email has been parsed
+2023-06-01 05:31:36,369 INFO  [main] test.EmailAndCloudGooglePageCostComparisonTest.estimatedCostTest(EmailAndCloudGooglePageCostComparisonTest.java:45) Comparing estimated cost from mail and actual
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 40351
+Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 35254
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-мая 30, 2023 11:39:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+июн. 01, 2023 5:31:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: 111
+]]></system-err>
+  </testcase>
+  <testcase name="urlTest" classname="test.YopmailURLTest" time="3.026">
+    <system-out><![CDATA[2023-06-01 05:31:36,380 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-4] io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder.encode(WebSocket08FrameEncoder.java:129) Encoding WebSocket Frame opCode=8 length=26
+2023-06-01 05:31:37,772 INFO  [main] page.YopmailPage.openPage(YopmailPage.java:34) Trying to open the Yopmail home page
+2023-06-01 05:31:40,790 INFO  [main] page.YopmailPage.openPage(YopmailPage.java:39) The Yopmail home page has been opened
+]]></system-out>
+    <system-err><![CDATA[июн. 01, 2023 5:31:36 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 33813
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июн. 01, 2023 5:31:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: 111
 ]]></system-err>
   </testcase>
