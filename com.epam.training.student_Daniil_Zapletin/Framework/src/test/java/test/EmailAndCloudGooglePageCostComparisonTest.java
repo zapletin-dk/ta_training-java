@@ -21,19 +21,19 @@ public class EmailAndCloudGooglePageCostComparisonTest extends CommonConditions 
     public void configureModel(){
         pageConfiguration = GoogleCloudPricingCalculatorConfigurationCreator.createWithProperty();
     }
-    
     public void pricingCalculatorConfiguration() {
 
         YopmailPage yopmailPage = new YopmailPage(driver, logger);
-        String emailAddress = yopmailPage
+        yopmailPage
                 .openPage()
                 .generateEmail()
                 .getEmailAddress();
+        String emailAddress = yopmailPage.getEmailAddress();
 
-        driver.switchTo().newWindow(WindowType.TAB);
+                driver.switchTo().newWindow(WindowType.TAB);
 
         GoogleCloudHomePage cloudGoogleHomepage = new GoogleCloudHomePage(driver, logger);
-        
+
         cloudGoogleHomepage
                 .openPage()
                 .searchOnRequest()
@@ -44,9 +44,10 @@ public class EmailAndCloudGooglePageCostComparisonTest extends CommonConditions 
 
 
         driver.switchTo().window(yopmailPage.getMailHomePageHandle());
-        actualEstimatedCost = yopmailPage.checkEmailBox().getTotalEstimatedCost();
+        yopmailPage.checkEmailBox();
+        actualEstimatedCost = yopmailPage.getTotalEstimatedCost();
 
-        expectedEstimatedCost = pageConfiguration.getTotalEstimate();
+                expectedEstimatedCost = pageConfiguration.getTotalEstimate();
     }
 
     @Test
