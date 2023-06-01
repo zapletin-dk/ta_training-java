@@ -16,6 +16,8 @@ import java.time.format.DateTimeFormatter;
 
 public class TestListener implements ITestListener {
     private final Logger logger = LogManager.getRootLogger();
+    
+    @Override
     public void onTestFailure(ITestResult result) { saveScreenshot(); }
 
     private void saveScreenshot() {
