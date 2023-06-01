@@ -33,7 +33,8 @@ public class EmailAndCloudGooglePageCostComparisonTest extends CommonConditions 
         driver.switchTo().newWindow(WindowType.TAB);
 
         GoogleCloudHomePage cloudGoogleHomepage = new GoogleCloudHomePage(driver, logger);
-        expectedEstimatedCost = cloudGoogleHomepage
+        
+        cloudGoogleHomepage
                 .openPage()
                 .searchOnRequest()
                 .followPricingCalculatorLink()
@@ -43,14 +44,15 @@ public class EmailAndCloudGooglePageCostComparisonTest extends CommonConditions 
 
 
         driver.switchTo().window(yopmailPage.getMailHomePageHandle());
-        yopmailPage.checkEmailBox();
+        actualEstimatedCost = yopmailPage.checkEmailBox().getTotalEstimatedCost();
 
-        actualEstimatedCost = pageConfiguration.getTotalEstimate();
+        expectedEstimatedCost = pageConfiguration.getTotalEstimate();
     }
 
     @Test
     public void estimatedCostTest() {
         pricingCalculatorConfiguration();
+        logger.info("Comparing estimated cost from mail and actual");
         Assert.assertEquals (actualEstimatedCost, expectedEstimatedCost, "The estimated cost is incorrect!");
     }
 }
