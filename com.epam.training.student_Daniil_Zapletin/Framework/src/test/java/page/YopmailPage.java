@@ -65,11 +65,18 @@ public class YopmailPage extends AbstractPage {
 
     public String getTotalEstimatedCost() {
         logger.info("Trying to search for email message in mail box");
-        while (driver.switchTo().frame("ifmail").findElements(By.xpath(TOTAL_ESTIMATED_COST)).isEmpty()){
-            driver.navigate().refresh();
+        for (int i = 0; (i < 10) && (driver.switchTo().frame("ifmail").findElements(By.xpath(TOTAL_ESTIMATED_COST)).isEmpty()); i++) {
+            try {
+                WebDriverWait webDriverWait = new WebDriverWait(this.driver, Duration.ofSeconds(3));
+                webDriverWait.until(webDriver -> (driver.findElement(By.xpath("//iframe[@name='ifmail']"))).isEnabled());
+                this.driver.switchTo().frame("ifmail");
+
+            } catch (Exception e) {
+                driver.navigate().refresh();
+            }
+
         }
         logger.info("Email has been parsed");
         return totalEstimatedCost.getAttribute("textContent");
     }
-
 }
