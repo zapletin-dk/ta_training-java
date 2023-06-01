@@ -2,6 +2,7 @@ package page;
 
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -53,7 +54,9 @@ public class YopmailPage extends AbstractPage {
     public YopmailPage checkEmailBox(){
         logger.info("Trying to check email box");
         new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT))
-                .until(ExpectedConditions.presenceOfElementLocated(By.xpath(CHECK_MAIL_BOX_BUTTON)));
+                .until(ExpectedConditions.elementToBeClickable(mailBoxButton));
+        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        jse.executeScript("arguments[0].click()", mailBoxButton);
         mailBoxButton.click();
         logger.info("Redirected to email box");
         return this;
