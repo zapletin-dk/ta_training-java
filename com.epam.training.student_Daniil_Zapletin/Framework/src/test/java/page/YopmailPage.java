@@ -54,8 +54,8 @@ public class YopmailPage extends AbstractPage {
     public YopmailPage checkEmailBox(){
         logger.info("Trying to check email box");
         new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT))
-                .until(ExpectedConditions.elementToBeClickable(mailBoxButton))
-            .click();
+                .until(ExpectedConditions.elementToBeClickable(mailBoxButton));
+        ((JavascriptExecutor)driver).executeScript("arguments[0].click();", mailBoxButton);
         logger.info("Redirected to email box");
         return this;
     }
