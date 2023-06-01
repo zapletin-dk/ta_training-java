@@ -11,6 +11,9 @@ import page.GoogleCloudHomePage;
 import page.YopmailPage;
 import service.GoogleCloudPricingCalculatorConfigurationCreator;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class EmailAndCloudGooglePageCostComparisonTest extends CommonConditions {
     PricingCalculatorPageConfiguration pageConfiguration;
     Logger logger = LogManager.getRootLogger();
@@ -24,11 +27,10 @@ public class EmailAndCloudGooglePageCostComparisonTest extends CommonConditions 
     public void pricingCalculatorConfiguration() {
 
         YopmailPage yopmailPage = new YopmailPage(driver, logger);
-        yopmailPage
+        String emailAddress = yopmailPage
                 .openPage()
                 .generateEmail()
                 .getEmailAddress();
-        String emailAddress = yopmailPage.getEmailAddress();
 
                 driver.switchTo().newWindow(WindowType.TAB);
 
@@ -39,15 +41,14 @@ public class EmailAndCloudGooglePageCostComparisonTest extends CommonConditions 
                 .searchOnRequest()
                 .followPricingCalculatorLink()
                 .fillForm()
-                .sendEmail(emailAddress)
-                .getTotalEstimatedCost();
+                .sendEmail(emailAddress);
 
+        List<String> tabs = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(tabs.get(0));
 
-        driver.switchTo().window(yopmailPage.getMailHomePageHandle());
-        yopmailPage.checkEmailBox();
-        actualEstimatedCost = yopmailPage.getTotalEstimatedCost();
+        actualEstimatedCost = yopmailPage.checkEmailBox().getTotalEstimatedCost();
 
-                expectedEstimatedCost = pageConfiguration.getTotalEstimate();
+        expectedEstimatedCost = pageConfiguration.getTotalEstimate();
     }
 
     @Test
