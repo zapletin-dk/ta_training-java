@@ -6,7 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
+
+import static page.Constants.EXPLICIT_WAIT;
 import static page.Constants.YopmailPageConstants.*;
 
 public class YopmailPage extends AbstractPage {
@@ -46,7 +52,9 @@ public class YopmailPage extends AbstractPage {
 
     public YopmailPage checkEmailBox(){
         logger.info("Trying to check email box");
-        waitUntilVisibility(mailBoxButton).click();
+        new WebDriverWait(driver, Duration.ofSeconds(EXPLICIT_WAIT))
+                .until(ExpectedConditions.presenceOfElementLocated(By.xpath(CHECK_MAIL_BOX_BUTTON)));
+        mailBoxButton.click();
         logger.info("Redirected to email box");
         return this;
     }
