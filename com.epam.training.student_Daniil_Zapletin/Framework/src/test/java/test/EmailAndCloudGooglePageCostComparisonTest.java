@@ -14,8 +14,7 @@ public class EmailAndCloudGooglePageCostComparisonTest extends CommonConditions 
 
     Logger logger = LogManager.getRootLogger();
     private static String actualEstimatedCost;
-
-    @BeforeMethod
+    
     @Description("pricingCalculatorConfiguration() configurates the yopmail and the calculator pages" +
             " then sends the email with estimated coast")
     public void pricingCalculatorConfiguration() {
@@ -44,6 +43,7 @@ public class EmailAndCloudGooglePageCostComparisonTest extends CommonConditions 
     @Test
     @Description("estimatedCostTest() compares actual estimated cost to retrieved from the email")
     public void estimatedCostTest() {
+        pricingCalculatorConfiguration();
         logger.info("Comparing estimated cost from mail and actual");
         Assert.assertEquals (actualEstimatedCost, "USD 1,081.20", "The estimated cost is incorrect!");
     }
