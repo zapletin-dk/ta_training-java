@@ -13,7 +13,7 @@ import static page.object.yopmail.YopmailPage.MAIL_PAGE_URL;
 public class YopmailURLTest extends CommonConditions{
     Logger logger = LogManager.getRootLogger();
     String actualURL;
-    @BeforeMethod
+    
     @Description("yopmailInitialization() initializes page and gets current URL")
     public void yopmailInitialization() {
         YopmailPage yopmailPage = new YopmailPage(driver, logger);
@@ -23,6 +23,7 @@ public class YopmailURLTest extends CommonConditions{
     @Test
     @Description("urlTest() compares actual URL to retrieved from the page ")
     public void urlTest() {
+        yopmailInitialization();
         Assert.assertEquals(actualURL, MAIL_PAGE_URL);
     }
 }
