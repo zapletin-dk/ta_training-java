@@ -1,0 +1,13 @@
+page\object\google\cloud\GoogleCloudHomePage.class
+page\object\AbstractPage.class
+test\CommonConditions.class
+test\EmailAndCloudGooglePageCostComparisonTest.class
+page\object\google\cloud\GoogleCloudPricingCalculatorPage.class
+util\TestListener.class
+page\object\google\cloud\GoogleCloudSearchResultPage.class
+service\TestDataReader.class
+test\YopmailURLTest.class
+driver\DriverSingleton.class
+page\object\yopmail\YopmailPage.class
+service\GoogleCloudPricingCalculatorConfigurationCreator.class
+model\PricingCalculatorPageConfiguration.class
