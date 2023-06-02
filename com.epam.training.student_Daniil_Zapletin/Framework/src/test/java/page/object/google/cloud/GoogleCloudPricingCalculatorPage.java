@@ -27,7 +27,7 @@ public class GoogleCloudPricingCalculatorPage extends AbstractPage {
     public static final String GPU_NUMBER_VALUE = "//div/md-select-menu/md-content/md-option[@ng-disabled='item.value != 0 && item.value < listingCtrl.minGPU'][@value='" + createWithProperty().numberOfGPU() +"']";
     public static final String LOCAL_SSD_VALUE = "//md-option//div[contains(text(), '" + createWithProperty().capacityOfLocalSSD() + "')]";
     public static final String DATACENTER_VALUE = "//md-option[@ng-repeat='item in listingCtrl.fullRegionList | filter:listingCtrl.inputRegionText.computeServer']//div[contains(text(),'" + createWithProperty().locationOfDataCenter() + "')]";
-    public static final String COMMITTED_USAGE_VALUE = "//md-select-menu[@style='transform-origin: 294.633px 18px 0px;']//md-option//div[contains(text(), '" + createWithProperty().committedUsage() + "')]";
+    public static final String COMMITTED_USAGE_VALUE = "//md-select-menu[@style]//md-option//div[contains(text(), '" + createWithProperty().committedUsage() + "')]";
     public static final String ADD_TO_ESTIMATE_BUTTON_SELECTOR = "(//button[contains(text(), 'Add to Estimate')])[1]";
     public static final String TOTAL_ESTIMATED_COST = "//b[contains(text(), 'Total Estimated Cost')]";
     public static final String SEND_EMAIL_LINK = "//span[text() = 'email']";
