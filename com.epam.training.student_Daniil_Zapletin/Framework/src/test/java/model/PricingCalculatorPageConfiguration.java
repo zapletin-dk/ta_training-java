@@ -44,4 +44,5 @@ public record PricingCalculatorPageConfiguration(String numberOfInstances, Strin
                 ", totalEstimate='" + totalEstimate + '\'' +
                 '}';
     }
+
 }
